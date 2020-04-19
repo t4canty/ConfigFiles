@@ -218,6 +218,12 @@
                     "ctrl+alt+9"
                 ]
             }
+	{"command": {"action": "splitPane", "split": "vertical"}, "keys": ["ctrl+u"]},
+            {"command": {"action": "splitPane", "split": "horizontal"}, "keys": ["ctrl+shift+u"]},
+            {"command": {"action": "splitPane", "split": "vertical", "profile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}", "commandline": "cmd.exe"},"keys": ["ctrl+k"]},
+            {"command": {"action": "splitPane", "split": "horizontal", "profile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}", "commandline": "cmd.exe"},"keys": ["ctrl+shift+k"]},
+            {"command": {"action": "splitPane", "split": "vertical", "profile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}", "commandline": "powershell"},"keys": ["ctrl+p"]},
+            {"command": {"action": "splitPane", "split": "horizontal", "profile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}", "commandline": "powershell"},"keys": ["ctrl+shift+p"]}
         ],
         "requestedTheme" : "system",
         "showTabsInTitlebar" : true,
